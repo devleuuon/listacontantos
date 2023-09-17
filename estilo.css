@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to left, rgb(104, 142, 142),rgb(52, 47, 47));
+    margin-bottom: 20px;
+}
+
+.main-title {
+    color: black;
+    font-size: 38px;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+.list-wrapper {
+    
+}
+
+.list-item {
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(./imagens/thumb04.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list {
+    display: flex;
+    width: 90%;
+    max-width: 960px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.list-item__imagem img {
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.list-item__action {
+    background-color: rgb(198, 194, 194);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* border-radius: 0px; */
+    /* gap: 16px; */
+}
+
+.list-item__action img {
+    width: 15px;
+}
+
+.list-item__name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.list-item__email {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
